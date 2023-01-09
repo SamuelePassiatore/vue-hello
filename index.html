@@ -14,9 +14,10 @@
     <!-- Script -->
     <script defer src="js/script.js"></script>
 </head>
-<body>
-    <div id="root">
+<body class="p-4">
+    <div class="d-flex" id="root">
         <h1>{{ message }}</h1>
+        <img v-bind:src="image" :alt="message" class="ps-5">
     </div>
 </body>
 </html>
